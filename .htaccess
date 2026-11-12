@@ -1,0 +1,21 @@
+# Local AI Video Studio - top level Apache config
+Options -Indexes
+DirectoryIndex index.php
+
+# Prevent accessing dotfiles (.git, .gitignore, etc.)
+<FilesMatch "^\.">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Extra safety net: block direct hits to sensitive directories even if
+# per-directory .htaccess files are somehow ignored.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(?:config|storage|includes|database)(?:/|$) - [F,L]
+</IfModule>
