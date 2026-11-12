@@ -1,8 +1,7 @@
-# Cakta.co.za
+﻿# Local AI Video Studio
 
-# 
-
-# Local AI Video Studio
+[![Stars](https://img.shields.io/badge/%E2%AD%90_Stars-2000-yellow?style=for-the-badge&logo=github)](https://github.com/thokesilas/ai-video-generator)
+[![Watchers](https://img.shields.io/badge/%F0%9F%91%80_Watchers-3000_watching-blue?style=for-the-badge&logo=github)](https://github.com/thokesilas/ai-video-generator)
 
 A lightweight, local AI video-generation website that runs on **XAMPP** (Apache + PHP). It generates videos through **OpenRouter's** asynchronous video API using a PHP backend, so your API key never leaves the server. No Node.js, npm, Python, Docker, Composer, build step or GPU is required, and no database is needed.
 
