@@ -1,5 +1,7 @@
-﻿# Local AI Video Studio
+# Local AI Video Studio
 
+> Developed and maintained by **[Cakta](https://cakta.co.za)** — Empowering your business with intelligent digital solutions.  
+> 🌐 **Website:** [cakta.co.za](https://cakta.co.za)
 
 A lightweight, local AI video-generation website that runs on **XAMPP** (Apache + PHP). It generates videos through **OpenRouter's** asynchronous video API using a PHP backend, so your API key never leaves the server. No Node.js, npm, Python, Docker, Composer, build step or GPU is required, and no database is needed.
 
@@ -238,6 +240,22 @@ local-video-studio/
 | Upload rejected | Use PNG/JPEG/WebP under the configured size limit. |
 | Settings won't save | Ensure `config/` is writable; check the diagnostics panel. |
 
-```
+---
 
-```
+## 15. About Us
+
+**Local AI Video Studio** is created and maintained by **[Cakta](https://cakta.co.za)**.
+
+At **Cakta**, we build smart, high-impact digital solutions and AI-driven platforms that simplify workflows, automate creation, and empower businesses:
+
+- 🤖 **AI & Automation:** Custom AI tools, multi-model video generation, and autonomous workflow engines.
+- ⚡ **Workflow Automation:** Seamless system integration and trigger-based automations via [RAZE](https://cakta.co.za).
+- 📈 **SEO & Digital Growth:** Targeted search intelligence and performance-driven visibility.
+- 🛡️ **ScamGuard & Security:** Real-time AI threat checking and scam protection.
+- 💼 **Power Account:** Modern AI accounting designed for streamlined operations.
+
+### Connect with Cakta
+- **Website:** [https://cakta.co.za](https://cakta.co.za)
+- **LinkedIn:** [Cakta AI](https://www.linkedin.com/company/cakta-ai/)
+- **Instagram:** [@cakta11](https://www.instagram.com/cakta11/)
+- **Contact:** [Contact Cakta](https://cakta.co.za)
